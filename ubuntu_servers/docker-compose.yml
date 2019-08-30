@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  server_1:
+    image: ubuntu:18.04
+    container_name: ubuntu_server_1
+  server_2:
+    image: ubuntu:18.04
+    container_name: ubuntu_server_2
+  server_3:
+    image: ubuntu:18.04
+    container_name: ubuntu_server_3
