@@ -4,9 +4,17 @@ services:
   server_1:
     image: ubuntu:18.04
     container_name: ubuntu_server_1
+    stdin_open: true
+    tty: true
+
   server_2:
     image: ubuntu:18.04
     container_name: ubuntu_server_2
+    stdin_open: true
+    tty: true
+
   server_3:
     image: ubuntu:18.04
     container_name: ubuntu_server_3
+    stdin_open: true
+    tty: true
